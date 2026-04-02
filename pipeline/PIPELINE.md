@@ -123,9 +123,9 @@
 
 | Date | Action | Who | Status |
 |------|--------|-----|--------|
-| This week | Confirm extension | Justin (Emberos) | TODO |
-| This week | Interview scheduling | Christina Bender (UMG) | TODO |
-| This week | ADHD meds appointment | One Medical | BOOKED |
+| April 2 | Confirm extension | Justin (Emberos) | ✅ DONE |
+| April 2 | Interview scheduling | Christina Bender (UMG) | ✅ DONE |
+| April 2 | ADHD meds appointment | One Medical | ✅ DONE |
 | April 10 | Follow up if silent | Marie (Hasbro) | WAITING |
 | Late April | Contract end | Emberos | DEADLINE |
 | End of May | Seed round close | Emberos | WATCHING |
