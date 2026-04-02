@@ -1,40 +1,49 @@
-# TOOLS.md - Local Notes
+# TOOLS.md — System Configuration
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## Transcription
+- **Whisper:** venv at `/tmp/whisper_env` (rebuilt on reboot — needs permanent home)
+- **ffmpeg:** `~/creative/scripts/ffmpeg`
+- All voice notes transcribed before responding
 
-## What Goes Here
+## GitHub
+- **Account:** AK47LA
+- **Repo:** AK47LA/Memory-pass (OS sync)
+- **Token type:** Classic (ghp_), scope: repo
+- **Token expires:** ~July 2, 2026 (90 days from April 2)
+- **Credentials:** ~/.git-credentials
+- **Auto-sync:** launchd com.ak.gitsync (every 30 min)
+- **Manual sync:** `~/creative/scripts/git_sync.sh`
 
-Things like:
+## Web Research
+- **Brave Search:** NOT CONFIGURED (no API key)
+- **Workaround:** Use `web_fetch` with Bing or direct URLs
+- **To fix:** `openclaw configure --section web` or set BRAVE_API_KEY
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+## Audio
+- **Masters:** `~/creative/silly/masters/`
+- **Note:** `grab_the_loop.wav` is 0 bytes (corrupted). Use `.m4a` (1.7MB) as master.
 
-## Examples
+## External Drive
+- **Path:** `/Volumes/AK Music/`
+- **Status:** Intermittently slow/sleeping
+- **Contents:** OLD_MAC_MASTER_ARCHIVE_2026, CAPCUT_COMPLETE, Finished_Videos, Music_Library
 
-```markdown
-### Cameras
+## TTS
+- Preferred voice: Not yet set
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+## Key Paths
+| Path | Purpose |
+|------|---------|
+| `~/creative/` | Workspace root |
+| `~/creative/pipeline/` | Deal tracker |
+| `~/creative/memory/` | Session memory |
+| `~/creative/brains/` | Production brains |
+| `~/creative/silly/` | Silly IP (ON HOLD) |
+| `~/creative/rad_dad/` | Rad Dad (ON HOLD) |
+| `~/creative/emberos/` | Emberos work |
+| `~/creative/scripts/` | Utilities (ffmpeg, git_sync) |
+| `~/creative/Memory-pass/` | GitHub repo clone |
 
 ---
 
-Add whatever helps you do your job. This is your cheat sheet.
+*Last updated: April 2, 2026*
